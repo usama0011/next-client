@@ -38,7 +38,7 @@ export default function Home() {
   return (
 
     
-    <div className="bg-[#f7f7f7]">
+    <div className=" overflow-hidden overflow-x-hiddenbg-[#f7f7f7]">
       <Head>
         <title>entorOcean.com</title>
         <link rel="icon" href="/favicon.ico" />
@@ -82,7 +82,7 @@ export default function Home() {
               Attach Files
             </button>
           </div>
-          <div  className="md:hidden sm:hidden lg:hidden rounded w-full max-w-[200px] hidden group-hover:block transition ease-in-out .2s  absolute shadow-md  top-10 -right-72  bg-blue-100 px-2 p-2">
+          <div  className="  rounded w-full max-w-[200px] hidden group-hover:block transition ease-in-out .2s  absolute shadow-md  top-10 -right-72  bg-blue-100 px-2 p-2">
           <div className="flex items-center pb-2 border-b border-blue-200">
             <div className="px-2 py-2 bg-blue-200 mr-1  block rounded-full">
             <img src="https://image.flaticon.com/icons/png/512/4151/4151213.png" alt="" className="w-5 h-5" />
